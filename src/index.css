@@ -13,3 +13,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navLink {
+  color: rgb(229, 123, 123);
+}
+
+.navLink:hover {
+  color: rgb(159, 136, 136);
+}

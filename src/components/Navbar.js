@@ -8,15 +8,15 @@ const Navbar = () => {
     <div>
       <div className="nav">
         <Link className="navLink" to="/">
-          <h2>Ecommerce 🛒</h2>
+          <h3>Home 🛒</h3>
         </Link>
         <Link className="navLink" to="/addproduct">
-          <h4> Addproduct</h4>
+          <h3> Addproduct</h3>
         </Link>
         <Link className="navLink" to="/cart">
-          <h4> Cart</h4>
+          <h3> Cart</h3>
         </Link>
-        <h4 className="cartCount">Cart items: {items.length}</h4>
+        <h3 className="cartCount">Cart items: {items.length}</h3>
       </div>
     </div>
   );
