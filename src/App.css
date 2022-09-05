@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+
+button{
+  margin: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#items {
+  height:fit-content;
+  width:70vw;
+  border: 2px skyblue solid;
+  border-radius: 4px;
+  margin: 15px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:#f4f6f6;
 }
 
-.App-link {
-  color: #61dafb;
+#itemimg img{
+  height: 150px;
+  width: 160px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#specs{
+  margin-left: 20px;
+  display: flexbox;
+  align-content:flex-end;
 }
+
+.nav{
+  display: flexbox;
+  justify-content: space-evenly;
+  justify-items: center;
+  height: 8vh;
+}
+
+h2{
+  color: #410ee4;
+}
+h4{
+  color: black;
+}
+
+
+#details{
+  height:80vh;
+  width: 80vw;
+  display:flex;
+  margin-top: 100px;
+}
+
+#detailsimg img{
+  height:75vh;
+  width: 60vh;
+}
+
+#detailsspecs{
+  margin: 40px;
+}
+#detailsspecs button{
+  width:80%;
+}
+
+#cartimg img{
+  height: 150px;
+  width: 150px;
+}
+
+#cartitem {
+  display:flex;
+}
+
+#btn{
+  display: flex;
+  align-items: stretch;
+}
+

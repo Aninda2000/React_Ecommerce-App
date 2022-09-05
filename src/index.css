@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./app/pexels-fwstudio-129731.jpg);
+  background-repeat:repeat-y;
 }
 
 code {
